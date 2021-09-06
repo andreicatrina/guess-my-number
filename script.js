@@ -40,7 +40,6 @@ document.querySelector('.check').addEventListener('click', function() {
             document.querySelector('.highscore').textContent = highscore;
         }
 
-
         //when guess is too high
     }else if (guess > secretNumber){
         if (score > 1){
@@ -78,4 +77,3 @@ document.querySelector('.again').addEventListener('click', function() {
     document.querySelector('body').style.backgroundColor = '#222';
     document.querySelector('.number').style.width = '15rem';
 })
-
