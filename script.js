@@ -52,7 +52,9 @@ document.querySelector('.check').addEventListener('click', function() {
 
         }
         
-        //when guess is too low
+       
+     //when guess is too low
+     
     } else if (guess < secretNumber) {
         if (score > 1){
             document.querySelector('.message').textContent = 'Too low!😢'
